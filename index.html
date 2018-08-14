@@ -31,7 +31,13 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
 
 		<!--[if lt IE 9]>
 			<script src="lib/js/html5shiv.js"></script>
-		<![endif]-->
+			<![endif]-->
+			<style>
+img.two {
+	height: auto;
+	width: 130%;
+}
+			</style>
 	</head>
 
 	<body>
@@ -137,21 +143,23 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
 				<section>
 					<h2> Parameter Estimation 1/2: T and B </h2>
 					<ul>
-						<section>
+					<div style="text-align: left; float: left; width: 50%; font-size:80%">
 							<div class="container">				  
-								<img width=50% src="images/hBkg.jpg">
+								<img  src="images/hBkg.jpg">
 								<div class="Title"> Background spectrum with laser light turned off. </div>				  
 								<div class="title-bottom-right"> <font color = "white" > mV </font> </div>				  
 							</div>	  
+					</div>
+					<div style="text-align: right; float: right; width: 50%; font-size:80%">
 							<div class="container">				  
-								<img width=50% src="images/hSig.jpg">
+								<img src="images/hSig.jpg">
 								<div class="Title">
 									Signal spectrum with laser light turned on.	  
 								</div>
 
 								<div class="title-bottom-right"> <font color = "white" > mV </font> </div>				 			  
 							</div>
-						</section>
+					</div>
 					</ul>
 				</section>
 				<section>
